@@ -1,0 +1,46 @@
+canonical_identifier: bkk:krp/KR3l0088/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3l0088/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 觚不觚錄
+  date: '2015-08-24 23:40:07.198146'
+  source:
+    repository: kanripo
+    path: KR3l0088
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3l0088_000-WYG.yaml, hash: 'sha256:cbd62675c7457368961741e4e9c7150297ba6e48e5762b193f64ece39ccd87ce'}
+  - {seq: 1, filename: KR3l0088_001-WYG.yaml, hash: 'sha256:39023fb877537a40623893a26bfdb166714a26da297dea67a1c8caaa5c3e4491'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3l0088_000-WYG.markers.yaml, hash: 'sha256:121eda658696ad6ea6e55ef0feb64872f3a66b1c5e15456376516f7f593d3461'}
+  - {seq: 1, role: markers, filename: assets/KR3l0088_001-WYG.markers.yaml, hash: 'sha256:7db97bcebb63f9a1dd23d93e7b32bf12d9b842fbc89af5c57c3512729f91b369'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3l0088_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 235
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3l0088_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8842
+  label: 觚不觚錄
+  type: section
+  level: 1
+hash: sha256:5c441e11c8f676096d5a381f10c45b2a263c9f196596b8a029c7c267e487775b
